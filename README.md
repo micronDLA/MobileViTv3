@@ -38,6 +38,7 @@ Note that for the segmentation and detection, only the backbone architecture par
 | MobileViTv3\-0.75 | 76.55 | 3.0 | 1064 | mobilevitv3\_0\_7\_5 |
 | MobileViTv3\-0.5 | 72.33 | 1.4 | 481 | mobilevitv3\_0\_5\_0 |
 
+
 ## Low-latency classification ImageNet-1K:
 | Model name | Accuracy (%) | Parameters (Million) | FLOPs (Million) | foldername  |
 | :---: | :---: | :---: |

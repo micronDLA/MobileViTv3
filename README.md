@@ -33,7 +33,7 @@ Note that for the segmentation and detection, only the backbone architecture par
 ## Classification 
 
 ### ImageNet-1K:
-| Model name | Accuracy (%) | Parameters (Million) | FLOPs (Million) | foldername  |
+| Model name | Accuracy (%) | Parameters (Million) | FLOPs (Million) | Foldername  |
 | :---: | :---: | :---: | :---: | :---: |
 | MobileViTv3\-S | 79.3 | 5.8 | 1841 | mobilevitv3\_S\_e300\_7930 |
 | MobileViTv3\-XS | 76.7 | 2.5 | 927 | mobilevitv3\_XS\_e300\_7671 |
@@ -44,7 +44,7 @@ Note that for the segmentation and detection, only the backbone architecture par
 
 
 ### ImageNet-1K using low-latency models:
-| Model name | Accuracy (%) | Parameters (Million) | FLOPs (Million) | foldername  |
+| Model name | Accuracy (%) | Parameters (Million) | FLOPs (Million) | Foldername  |
 | :---: | :---: | :---: | :---: | :---: |
 | MobileViTv3\-S-L2 | 79.06 | 5.2 | 1651 | mobilevitv3\_S\_L2\_e300\_7906 |
 | MobileViTv3\-XS-L2 | 76.10 | 2.3 | 853 | mobilevitv3\_XS\_L2\_e300\_7610 |
@@ -53,7 +53,7 @@ Note that for the segmentation and detection, only the backbone architecture par
 ## Segmentation
 
 ### PASCAL VOC 2012:
-| Model name | mIoU | Parameters (Million) | foldername  |
+| Model name | mIoU | Parameters (Million) | Foldername  |
 | :---: | :---: | :---: | :---: |
 | MobileViTv3\-S | 79.59 | 7.2 | mobilevitv3\_S\_voc\_e50\_7959 |
 | MobileViTv3\-XS | 78.77 | 3.3 | mobilevitv3\_XS\_voc\_e50\_7877 |
@@ -62,14 +62,14 @@ Note that for the segmentation and detection, only the backbone architecture par
 | MobileViTv3\-0.5 | 76.48 | 6.3 | mobilevitv3\_voc\_0\_5\_0 |
 
 ### ADE20K:
-| Model name | mIoU | Parameters (Million) | foldername  |
+| Model name | mIoU | Parameters (Million) | Foldername  |
 | :---: | :---: | :---: | :---: |
 | MobileViTv3\-1.0 | 39.13 | 13.6 | mobilevitv3\_ade20k\_1\_0\_0 |
 | MobileViTv3\-0.75 | 36.43 | 9.7 | mobilevitv3\_ade20k\_0\_7\_5  |
 | MobileViTv3\-0.5 | 33.57 | 6.4 | mobilevitv3\_ade20k\_0\_5\_0 |
 
 ## Detection MS-COCO:
-| Model name | mAP | Parameters (Million) | foldername  |
+| Model name | mAP | Parameters (Million) | Foldername  |
 | :---: | :---: | :---: | :---: |
 | MobileViTv3\-S | 27.3 | 5.5 | mobilevitv3\_S\_coco\_e200\_2730 |
 | MobileViTv3\-XS | 25.6 | 2.7 | mobilevitv3\_XS\_coco\_e200\_2560 |

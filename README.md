@@ -30,8 +30,8 @@ Note that for the segmentation and detection, only the backbone architecture par
 
 ## Classification ImageNet-1K:
 | Model name | Accuracy (%) | Parameters (Million) | FLOPs (Million) | foldername  |
-| :---: | :---: | :---: |
-| MobileViTv3\-S |  | 79.3 | 5.8 | 1841 | mobilevitv3\_S\_e300\_7930 |
+| :---: | :---: | :---: | :---: | :---: |
+| MobileViTv3\-S | 79.3 | 5.8 | 1841 | mobilevitv3\_S\_e300\_7930 |
 | MobileViTv3\-XS | 76.7 | 2.5 | 927 | mobilevitv3\_XS\_e300\_7671 |
 | MobileViTv3\-XXS | 70.98 | 1.2 | 289 | mobilevitv3\_XXS\_e300\_7098 |
 | MobileViTv3\-1.0 | 78.64 | 5.1 | 1876 | mobilevitv3\_1\_0\_0 |
@@ -41,8 +41,8 @@ Note that for the segmentation and detection, only the backbone architecture par
 
 ## Low-latency classification ImageNet-1K:
 | Model name | Accuracy (%) | Parameters (Million) | FLOPs (Million) | foldername  |
-| :---: | :---: | :---: |
-| MobileViTv3\-S-L2 |  | 79.06 | 5.2 | 1651 | mobilevitv3\_S\_L2\_e300\_7906 |
+| :---: | :---: | :---: | :---: | :---: |
+| MobileViTv3\-S-L2 | 79.06 | 5.2 | 1651 | mobilevitv3\_S\_L2\_e300\_7906 |
 | MobileViTv3\-XS-L2 | 76.10 | 2.3 | 853 | mobilevitv3\_XS\_L2\_e300\_7610 |
 | MobileViTv3\-XXS-L2 | 70.23 | 1.1 | 256 | mobilevitv3\_XXS\_L2\_e300\_7023 |
 
@@ -50,7 +50,7 @@ Note that for the segmentation and detection, only the backbone architecture par
 
 ### PASCAL VOC 2012:
 | Model name | mIoU | Parameters (Million) | foldername  |
-| :---: | :---: | :---: |
+| :---: | :---: | :---: | :---: |
 | MobileViTv3\-S | 79.59 | 7.2 | mobilevitv3\_S\_voc\_e50\_7959 |
 | MobileViTv3\-XS | 78.77 | 3.3 | mobilevitv3\_XS\_voc\_e50\_7877 |
 | MobileViTv3\-XXS | 74.04 | 2.0 | mobilevitv3\_XXS\_voc\_e50\_7404 |
@@ -59,14 +59,14 @@ Note that for the segmentation and detection, only the backbone architecture par
 
 ### Segmentation ADE20K:
 | Model name | mIoU | Parameters (Million) | foldername  |
-| :---: | :---: | :---: |
+| :---: | :---: | :---: | :---: |
 | MobileViTv3\-1.0 | 39.13 | 13.6 | mobilevitv3\_ade20k\_1\_0\_0 |
 | MobileViTv3\-0.75 | 36.43 | 9.7 | mobilevitv3\_ade20k\_0\_7\_5  |
 | MobileViTv3\-0.5 | 33.57 | 6.4 | mobilevitv3\_ade20k\_0\_5\_0 |
 
 ## Detection MS-COCO:
 | Model name | mAP | Parameters (Million) | foldername  |
-| :---: | :---: | :---: |
+| :---: | :---: | :---: | :---: |
 | MobileViTv3\-S | 27.3 | 5.5 | mobilevitv3\_S\_coco\_e200\_2730 |
 | MobileViTv3\-XS | 25.6 | 2.7 | mobilevitv3\_XS\_coco\_e200\_2560 |
 | MobileViTv3\-XXS | 19.3 | 1.5 | mobilevitv3\_XXS\_coco\_e200\_1930 |

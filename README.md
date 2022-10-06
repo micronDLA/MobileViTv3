@@ -26,9 +26,13 @@ For training, use `training-and-evaluation readme` provided in the downloaded re
 
 Download the trained MobileViTv3 models from [here](https://github.com/micronDLA/MobileViTv3/releases/tag/v1.0.0).
 `checkpoint_ema_best.pt` files inside the model folder is used to generated the accuracy of models.
+Low-latency models are build by reducing the number of MobileViTv3-blocks in 'layer4' from 4 to 2.
+Please refer to the paper for more details.
 Note that for the segmentation and detection, only the backbone architecture parameters are listed.
 
-## Classification ImageNet-1K:
+## Classification 
+
+### ImageNet-1K:
 | Model name | Accuracy (%) | Parameters (Million) | FLOPs (Million) | foldername  |
 | :---: | :---: | :---: | :---: | :---: |
 | MobileViTv3\-S | 79.3 | 5.8 | 1841 | mobilevitv3\_S\_e300\_7930 |
@@ -39,7 +43,7 @@ Note that for the segmentation and detection, only the backbone architecture par
 | MobileViTv3\-0.5 | 72.33 | 1.4 | 481 | mobilevitv3\_0\_5\_0 |
 
 
-## Low-latency classification ImageNet-1K:
+### ImageNet-1K using low-latency models:
 | Model name | Accuracy (%) | Parameters (Million) | FLOPs (Million) | foldername  |
 | :---: | :---: | :---: | :---: | :---: |
 | MobileViTv3\-S-L2 | 79.06 | 5.2 | 1651 | mobilevitv3\_S\_L2\_e300\_7906 |

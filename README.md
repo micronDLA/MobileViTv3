@@ -57,7 +57,7 @@ Note that for the segmentation and detection, only the backbone architecture par
 | MobileViTv3\-1.0 | 80.04 | 13.6 | mobilevitv3\_voc\_1\_0\_0 |
 | MobileViTv3\-0.5 | 76.48 | 6.3 | mobilevitv3\_voc\_0\_5\_0 |
 
-### Segmentation ADE20K:
+### ADE20K:
 | Model name | mIoU | Parameters (Million) | foldername  |
 | :---: | :---: | :---: | :---: |
 | MobileViTv3\-1.0 | 39.13 | 13.6 | mobilevitv3\_ade20k\_1\_0\_0 |
